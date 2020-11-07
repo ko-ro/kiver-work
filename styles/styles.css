@@ -1,1 +1,23 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+.galery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1050px;
+    width: 850px;
+    text-align: center;
+    justify-items: center;
+    padding: 50px;
+}
+
+.galery img {
+    width: 500px;
+}
+
+.galery .text-card {
+    padding-left: 40px;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+/*# sourceMappingURL=styles.css.map */
