@@ -38,25 +38,30 @@ header nav a {
   font-family: 'Titillium Web', sans-serif;
 }
 
+.about-us .img-github {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .about-us img {
   height: 100px;
-  width: 200px;
-  margin-left: auto;
 }
 
 .about-us div {
-  height: 100px;
-  width: 1080px;
+  width: 1500px;
 }
 
 .about-us h1 {
   text-align: center;
-  margin-top: auto;
 }
 
 .about-us p {
   text-align: center;
-  margin: 30px 30px 30px 30px;
+  margin: 30px;
 }
 
 .galery {

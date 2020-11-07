@@ -2,13 +2,18 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin-top: 100px;
 }
 
 header {
     position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
     width: calc(100% - (30px * 2));
     display: flex;
     align-items: center;
+    background-color: #fff;
     justify-content: space-between;
     padding: 30px;
     box-shadow: 0 2px 12px rgba(136, 136, 136, 0.1);
@@ -25,23 +30,22 @@ header {
 }
 
 .about-us {
-    font-family: 'Titillium Web', sans-serif;
+    .img-github {
+        display: flex;
+        justify-content: center;
+    }
     img {
         height: 100px;
-        width: 200px;
-        margin-left: auto;
     }
     div {
-        height: 100px;
-        width: 1080px;
+        width: 1500px;
     }
     h1 {
         text-align: center;
-        margin-top: auto;
     }
     p {
         text-align: center;
-        margin: 30px 30px 30px 30px;
+        margin: 30px;
     }
 }
 
