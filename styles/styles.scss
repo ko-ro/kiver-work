@@ -3,21 +3,21 @@ body {
 }
 
 .about-us {
+    .img-github {
+        display: flex;
+        justify-content: center;
+    }
     img {
         height: 100px;
-        width: 200px;
-        margin-left: auto;
     }
     div {
-        height: 100px;
-        width: 1080px;
+        width: 1500px;
     }
     h1 {
         text-align: center;
-        margin-top: auto;
     }
     p {
         text-align: center;
-        margin: 30px 30px 30px 30px;
+        margin: 30px;
     }
 }
