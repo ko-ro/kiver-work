@@ -1,1 +1,25 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.about-us img {
+  height: 100px;
+  width: 200px;
+  margin-left: auto;
+}
+
+.about-us div {
+  height: 100px;
+  width: 1080px;
+}
+
+.about-us h1 {
+  text-align: center;
+  margin-top: auto;
+}
+
+.about-us p {
+  text-align: center;
+  margin: 30px 30px 30px 30px;
+}
+/*# sourceMappingURL=styles.css.map */
