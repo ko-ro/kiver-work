@@ -1,1 +1,31 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+footer {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0 auto;
+    max-width: 1050px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+footer .btn {
+    position: absolute;
+    top: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer .btn .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/*# sourceMappingURL=styles.css.map */
