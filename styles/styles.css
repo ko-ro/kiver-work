@@ -22,7 +22,6 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 30px;
   -webkit-box-shadow: 0 2px 12px rgba(136, 136, 136, 0.1);
           box-shadow: 0 2px 12px rgba(136, 136, 136, 0.1);
 }
