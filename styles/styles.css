@@ -60,6 +60,7 @@ header nav a {
   text-align: center;
   justify-items: center;
   padding: 50px 0;
+  margin: 0 auto;
 }
 
 .galery img {
