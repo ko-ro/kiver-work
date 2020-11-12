@@ -4,6 +4,8 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-top: 100px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
