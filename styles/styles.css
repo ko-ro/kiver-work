@@ -97,4 +97,40 @@ footer button:hover {
   background-color: black;
   color: white;
 }
+
+.cards {
+  max-width: 1200px;
+  margin: 0 0;
+  text-align: center;
+  height: 400px;
+}
+
+.cards .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  margin-right: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cards .column div {
+  margin: 0 5px;
+  background-color: #faf9ff;
+}
+
+.cards .vel {
+  font-size: 15px;
+  max-width: 640px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.cards h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 /*# sourceMappingURL=styles.css.map */
