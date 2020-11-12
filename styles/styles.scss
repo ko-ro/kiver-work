@@ -10,7 +10,8 @@ header {
     top: 0;
     left: 0;
     height: 100px;
-    width: calc(100% - (30px * 2));
+    padding: 0 30px;
+    width: calc(100% - 60px);
     display: flex;
     align-items: center;
     background-color: #fff;
@@ -29,32 +30,24 @@ header {
 }
 
 .about-us {
-    .img-github {
-        display: flex;
-        justify-content: center;
-    }
     img {
         height: 100px;
-    }
-    div {
-        width: 1500px;
     }
     h1 {
         text-align: center;
     }
     p {
         text-align: center;
-        margin: 30px;
     }
 }
 
 .galery {
     display: flex;
     max-width: 1050px;
-    width: 850px;
+    width: 100%;
     text-align: center;
     justify-items: center;
-    padding: 50px;
+    padding: 50px 0;
     img {
         width: 500px;
     }
@@ -71,8 +64,8 @@ footer {
     background-color: #ffffff;
     text-align: center;
     button {
-        top: 20%;
-        transform: translate(-50%, -50%);
+        display: block;
+        margin: 30px auto 0;
         background-color: #f1f1f1;
         color: black;
         font-size: 16px;
